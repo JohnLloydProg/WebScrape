@@ -1,0 +1,439 @@
+======OVERVIEW======
+<div class="gig-overview with-loyalty">
+ <h1 class="_5plgh7k _66nk381g8 _66nk381ge _66nk381dq _66nk381dw _66nk388 _66nk382 _66nk38og" style="--_5plgh70:var(--_1qsitkk1o);word-break:break-word;overflow-wrap:break-word;white-space:normal">
+  I will create python bots, scripts,automate jobs
+ </h1>
+ <div class="seller-overview">
+  <div class="_66nk380 _66nk3810o _66nk381b8">
+   <div class="_66nk380 _66nk381bz">
+    <div class="_78briq1j _78briq14 _66nk381ko _66nk3817c _66nk38195 _66nk380 _66nk381bd" style="--_78briq0:48px;--_78briqf:48px">
+     <figure class="_78briq1j _78briq14 _5plgh7s _5plgh7w _66nk383h _66nk3817c _66nk38195 _66nk381ko _66nk380 _66nk381i6 _66nk381j _66nk381fj _66nk381d1 _66nk3813b _66nk38v _66nk381bd" style="--_78briq0:48px;--_78briqf:48px;--_5plgh78:var(--_1qsitkk1z);--_5plgh7c:var(--_1qsitkk1h)" title="samridhsrivasta">
+      <figcaption class="_5plgh7k _66nk387 _66nk381fj _66nk381d1" style="--_5plgh70:var(--_1qsitkk1q)">
+       S
+      </figcaption>
+      <img alt="samridhsrivasta" class="_78briq1j _78briq14 _5plgh7s _66nk383f _66nk381kt" loading="lazy" role="img" src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/3d71e02643c10d935d1799c5008f168f-1586719343383/59707707-d823-40d9-b391-bba337084bd7.jpeg" style="--_78briq0:100%;--_78briqf:100%;--_5plgh78:var(--_1qsitkk1j)"/>
+     </figure>
+    </div>
+   </div>
+   <div class="_66nk380 _66nk381bx _66nk381c4">
+    <div class="_78briq1j _78briq14 _66nk381ko _66nk3817c _66nk38195 _66nk380 _66nk381bd" style="--_78briq0:64px;--_78briqf:64px">
+     <figure class="_78briq1j _78briq14 _5plgh7s _5plgh7w _66nk383h _66nk3817c _66nk38195 _66nk381ko _66nk380 _66nk381i6 _66nk381j _66nk381gd _66nk381dv _66nk3813b _66nk38v _66nk381bd" style="--_78briq0:64px;--_78briqf:64px;--_5plgh78:var(--_1qsitkk1z);--_5plgh7c:var(--_1qsitkk1h)" title="samridhsrivasta">
+      <figcaption class="_5plgh7k _66nk387 _66nk381gd _66nk381dv" style="--_5plgh70:var(--_1qsitkk1q)">
+       S
+      </figcaption>
+      <img alt="samridhsrivasta" class="_78briq1j _78briq14 _5plgh7s _66nk383f _66nk381kt" loading="lazy" role="img" src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/3d71e02643c10d935d1799c5008f168f-1586719343383/59707707-d823-40d9-b391-bba337084bd7.jpeg" style="--_78briq0:100%;--_78briqf:100%;--_5plgh78:var(--_1qsitkk1j)"/>
+     </figure>
+    </div>
+   </div>
+   <div class="_66nk3816n _66nk380 _66nk38109 _66nk381b8">
+    <div class="_66nk3816n _66nk3816v _66nk380 _66nk38109 _66nk3810m _66nk38198 _66nk381b8">
+     <div class="_66nk381aj _66nk3816n _66nk3816t _66nk380 _66nk38109 _66nk38196 _66nk381b8">
+      <div class="flex flex-items-baseline">
+       <div aria-label="Scroll to about the seller" class="FS8RhT9 tbody-4 text-bold" role="button" tabindex="0">
+        Samridh
+       </div>
+      </div>
+      <div class="_66nk3816n _66nk3816t _66nk380 _66nk3810j _66nk381b8">
+       <div class="_5plgh7k _5plgh7s _78briq14 _78briq1j _66nk38tq _66nk38ws _66nk38x2 _66nk38nw _66nk38109 _66nk381d _66nk38195 _66nk381f4 _66nk381ch _66nk387 _66nk38q _66nk381b8" style="--_5plgh70:var(--_1qsitkk7);--_5plgh78:var(--_1qsitkko);--_78briqf:20px;--_78briq0:fit-content">
+        <div class="_66nk380 _66nk38109 _66nk381bd">
+         <p class="_66nk382">
+          Fiverr’s
+         </p>
+         <p class="_5plgh7k _66nk382" style="--_5plgh70:var(--_1qsitkk17)">
+          Choice
+         </p>
+        </div>
+       </div>
+       <div class="_5plgh7k _5plgh7s _78briq14 _78briq1j _66nk38tq _66nk38ws _66nk38x2 _66nk38nw _66nk38109 _66nk381d _66nk38195 _66nk381f4 _66nk381ch _66nk387 _66nk38q _66nk381b8" style="--_5plgh70:var(--_1qsitkk2c);--_5plgh78:var(--_1qsitkk3r);--_78briqf:20px;--_78briq0:fit-content">
+        <div class="_66nk380 _66nk38109 _66nk38195 _66nk3817c _66nk381bd">
+         <p class="_66nk382">
+          Top Rated
+         </p>
+         <div class="_66nk380 _66nk3812r _66nk381bd">
+          <svg fill="currentColor" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+           <path d="M4.839.22a.2.2 0 0 1 .322 0l1.942 2.636a.2.2 0 0 0 .043.043L9.782 4.84a.2.2 0 0 1 0 .322L7.146 7.105a.2.2 0 0 0-.043.043L5.161 9.784a.2.2 0 0 1-.322 0L2.897 7.148a.2.2 0 0 0-.043-.043L.218 5.163a.2.2 0 0 1 0-.322l2.636-1.942a.2.2 0 0 0 .043-.043L4.839.221Z">
+           </path>
+          </svg>
+          <svg fill="currentColor" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+           <path d="M4.839.22a.2.2 0 0 1 .322 0l1.942 2.636a.2.2 0 0 0 .043.043L9.782 4.84a.2.2 0 0 1 0 .322L7.146 7.105a.2.2 0 0 0-.043.043L5.161 9.784a.2.2 0 0 1-.322 0L2.897 7.148a.2.2 0 0 0-.043-.043L.218 5.163a.2.2 0 0 1 0-.322l2.636-1.942a.2.2 0 0 0 .043-.043L4.839.221Z">
+           </path>
+          </svg>
+          <svg fill="currentColor" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+           <path d="M4.839.22a.2.2 0 0 1 .322 0l1.942 2.636a.2.2 0 0 0 .043.043L9.782 4.84a.2.2 0 0 1 0 .322L7.146 7.105a.2.2 0 0 0-.043.043L5.161 9.784a.2.2 0 0 1-.322 0L2.897 7.148a.2.2 0 0 0-.043-.043L.218 5.163a.2.2 0 0 1 0-.322l2.636-1.942a.2.2 0 0 0 .043-.043L4.839.221Z">
+           </path>
+          </svg>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="_78briq14 _66nk380 _66nk381bx _66nk381c5" style="--_78briqf:100%">
+       <div class="_5plgh7w _78briq14 _66nk38v _66nk380 _66nk38163" style="--_5plgh7c:var(--_1qsitkk1h);--_78briqf:100%">
+       </div>
+      </div>
+      <p class="_5plgh7k _66nk381f9 _66nk381cr _66nk386 _66nk382" style="--_5plgh70:var(--_1qsitkk1l)">
+       1 order in queue
+      </p>
+     </div>
+    </div>
+    <div class="_66nk3816n _66nk3816t _66nk380 _66nk38109 _66nk3810p _66nk38196 _66nk381b8">
+     <div class="_66nk380 _66nk381by">
+      <div class="_66nk38195 _66nk381b8">
+       <div class="_66nk380 _66nk38o1 _66nk381bd">
+        <span class="_66nk380 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <strong class="_5plgh7k _66nk381f9 _66nk381cr _66nk388 _66nk382 _66nk38r3" style="--_5plgh70:var(--_1qsitkk1o)">
+        5.0
+       </strong>
+       <button class="_5plgh7k _5plgh7r _66nk38dm _66nk381d _66nk38278 _66nk3827k _66nk3827o" style="--_5plgh70:var(--_1qsitkk1l);--_5plgh77:var(--_1qsitkk1o)">
+        (
+        <span class="_5plgh7k _66nk3824y _66nk381f9 _66nk381cr _66nk386 _66nk382 _66nk38d" style="--_5plgh70:var(--_1qsitkk1)">
+         508 reviews
+        </span>
+        )
+       </button>
+      </div>
+     </div>
+     <div class="_66nk380 _66nk381bx _66nk381c3">
+      <div class="_66nk38195 _66nk381b8">
+       <div class="_66nk380 _66nk38o1 _66nk381bd">
+        <span class="_66nk380 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+        <span class="_66nk380 _66nk38r3 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+        <span class="_66nk380 _66nk38r3 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+        <span class="_66nk380 _66nk38r3 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+        <span class="_66nk380 _66nk38r3 _66nk381bd">
+         <svg fill="#222325" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.826 5.04c.01.07.01.131.01.202 0 .262-.115.504-.394.504a.76.76 0 0 1-.385-.121L8 13.499l-4.317 2.38a.8.8 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.365 5 7.53.413C7.615.222 7.779 0 8 0s.385.222.471.413l2.164 4.588 4.826.736c.231.04.539.16.539.463" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <strong class="_5plgh7k _66nk381f9 _66nk381cr _66nk388 _66nk382 _66nk38r3" style="--_5plgh70:var(--_1qsitkk1o)">
+        5.0
+       </strong>
+       <button class="_5plgh7k _5plgh7r _66nk38dm _66nk381d _66nk38278 _66nk3827k _66nk3827o" style="--_5plgh70:var(--_1qsitkk1l);--_5plgh77:var(--_1qsitkk1o)">
+        (
+        <span class="_5plgh7k _66nk3824y _66nk381f9 _66nk381cr _66nk386 _66nk382 _66nk38d" style="--_5plgh70:var(--_1qsitkk1)">
+         508 reviews
+        </span>
+        )
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="loyalty-and-notable-clients m-t-16 p-t-20 m-b-16">
+  <div class="seller-loyalty-banner">
+   <img alt="animated trophy" src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/56ff3db8ae625ba1d6493c3c250c5919-1625663632464/3-Trophy-70_alpha.gif"/>
+   <b>
+    People keep coming back!
+   </b>
+   samridhsrivasta has an exceptional number of repeat buyers.
+  </div>
+ </div>
+</div>
+====DESCRIPTION=====
+<div class="description-content">
+ <p>
+  I have worked for many clients with full satisfaction in python and provided them what they needed which you already can see.
+ </p>
+ <p>
+  <br/>
+ </p>
+ <p>
+  My past experience includes:
+ </p>
+ <ul>
+  <li>
+   <strong>
+    Discord Bots
+   </strong>
+  </li>
+  <li>
+   <strong>
+    Automated tools for tracking product stock and sending purchase alerts
+   </strong>
+  </li>
+  <li>
+   <strong>
+    Task Automation
+   </strong>
+  </li>
+  <li>
+   <strong>
+    Automatic Email Delivery via API or SMTP
+   </strong>
+  </li>
+  <li>
+   <strong>
+    Trading Bots
+   </strong>
+  </li>
+ </ul>
+ <p>
+  <br/>
+ </p>
+ <p>
+  In one line we can describe capability of Python as capable of doing almost everything. It can execute series of commands on your computer, on a remote computer in any form you are planning to.
+ </p>
+ <p>
+  Python is a cross platform language and I am familiar with Windows, Mac, and Linux environments !
+ </p>
+ <p>
+  <br/>
+ </p>
+ <p>
+  <strong>
+   <u>
+    The price of each script development depends on the task description, the time required &amp; complexity.
+   </u>
+  </strong>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <p>
+  <strong>
+   N.B: DO NOT PLACE AN ORDER BEFORE YOU DISCUSS.
+  </strong>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <p>
+  Have a plan? Let's work together!
+ </p>
+</div>
+======REVIEWS=======
+<div class="breakdown-wrapper grid-12">
+ <div class="col-12-xs col-6-sm">
+  <table class="stars-counters">
+   <tbody>
+    <tr class="">
+     <td>
+      <span class="stars-filter-wrapper">
+       <button class="ZnV0WzM Fbl5sBD b43q_ea co-grey-1200 stars-filter">
+        5 Stars
+       </button>
+      </span>
+     </td>
+     <td class="progress-bar-container">
+      <div class="L4v_zR9 star-progress-bar">
+       <div class="XDBJUkM">
+        <span class="_MVuuhf star-progress-shape" style="width:99.80314960629921%">
+        </span>
+       </div>
+      </div>
+     </td>
+     <td class="star-num">
+      (
+      <!-- -->
+      507
+      <!-- -->
+      )
+     </td>
+    </tr>
+    <tr class="">
+     <td>
+      <span class="stars-filter-wrapper">
+       <button class="ZnV0WzM Fbl5sBD b43q_ea co-grey-1200 stars-filter">
+        4 Stars
+       </button>
+      </span>
+     </td>
+     <td class="progress-bar-container">
+      <div class="L4v_zR9 star-progress-bar">
+       <div class="XDBJUkM">
+        <span class="_MVuuhf star-progress-shape" style="width:0.19685039370078738%">
+        </span>
+       </div>
+      </div>
+     </td>
+     <td class="star-num">
+      (
+      <!-- -->
+      1
+      <!-- -->
+      )
+     </td>
+    </tr>
+    <tr class="no-rating">
+     <td>
+      <span class="stars-filter-wrapper">
+       <button class="ZnV0WzM wqFtNtV b43q_ea co-grey-500 stars-filter AEbsJHm" disabled="">
+        3 Stars
+       </button>
+      </span>
+     </td>
+     <td class="progress-bar-container">
+      <div class="L4v_zR9 star-progress-bar">
+       <div class="XDBJUkM">
+        <span class="_MVuuhf star-progress-shape" style="width:0%">
+        </span>
+       </div>
+      </div>
+     </td>
+     <td class="star-num">
+      (
+      <!-- -->
+      0
+      <!-- -->
+      )
+     </td>
+    </tr>
+    <tr class="no-rating">
+     <td>
+      <span class="stars-filter-wrapper">
+       <button class="ZnV0WzM wqFtNtV b43q_ea co-grey-500 stars-filter AEbsJHm" disabled="">
+        2 Stars
+       </button>
+      </span>
+     </td>
+     <td class="progress-bar-container">
+      <div class="L4v_zR9 star-progress-bar">
+       <div class="XDBJUkM">
+        <span class="_MVuuhf star-progress-shape" style="width:0%">
+        </span>
+       </div>
+      </div>
+     </td>
+     <td class="star-num">
+      (
+      <!-- -->
+      0
+      <!-- -->
+      )
+     </td>
+    </tr>
+    <tr class="no-rating">
+     <td>
+      <span class="stars-filter-wrapper">
+       <button class="ZnV0WzM wqFtNtV b43q_ea co-grey-500 stars-filter AEbsJHm" disabled="">
+        1 Star
+       </button>
+      </span>
+     </td>
+     <td class="progress-bar-container">
+      <div class="L4v_zR9 star-progress-bar">
+       <div class="XDBJUkM">
+        <span class="_MVuuhf star-progress-shape" style="width:0%">
+        </span>
+       </div>
+      </div>
+     </td>
+     <td class="star-num">
+      (
+      <!-- -->
+      0
+      <!-- -->
+      )
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div class="col-12-xs col-6-sm">
+  <div class="ranking">
+   <h6 class="text-display-7">
+    Rating Breakdown
+   </h6>
+   <ul>
+    <li>
+     Seller communication level
+     <span>
+      <div class="orca-rating color-black tbody-6">
+       <div class="stars">
+        <span aria-hidden="true" class="atCuSzl orca-star" style="width:15px;height:15px">
+         <svg height="15" viewBox="0 0 16 15" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 5.81285C16 5.98299 15.875 6.14367 15.75 6.26654L12.2596 9.61248L13.0865 14.3384C13.0962 14.4045 13.0962 14.4612 13.0962 14.5274C13.0962 14.7732 12.9808 15 12.7019 15C12.5673 15 12.4327 14.9527 12.3173 14.8866L8 12.656L3.68269 14.8866C3.55769 14.9527 3.43269 15 3.29808 15C3.01923 15 2.89423 14.7732 2.89423 14.5274C2.89423 14.4612 2.90385 14.4045 2.91346 14.3384L3.74038 9.61248L0.240385 6.26654C0.125 6.14367 0 5.98299 0 5.81285C0 5.5293 0.298077 5.41588 0.538462 5.37807L5.36539 4.68809L7.52885 0.387524C7.61539 0.207939 7.77885 0 8 0C8.22115 0 8.38462 0.207939 8.47115 0.387524L10.6346 4.68809L15.4615 5.37807C15.6923 5.41588 16 5.5293 16 5.81285Z" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <strong class="rating-score">
+        5
+       </strong>
+      </div>
+     </span>
+    </li>
+    <li>
+     Quality of delivery
+     <span>
+      <div class="orca-rating color-black tbody-6">
+       <div class="stars">
+        <span aria-hidden="true" class="atCuSzl orca-star" style="width:15px;height:15px">
+         <svg height="15" viewBox="0 0 16 15" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 5.81285C16 5.98299 15.875 6.14367 15.75 6.26654L12.2596 9.61248L13.0865 14.3384C13.0962 14.4045 13.0962 14.4612 13.0962 14.5274C13.0962 14.7732 12.9808 15 12.7019 15C12.5673 15 12.4327 14.9527 12.3173 14.8866L8 12.656L3.68269 14.8866C3.55769 14.9527 3.43269 15 3.29808 15C3.01923 15 2.89423 14.7732 2.89423 14.5274C2.89423 14.4612 2.90385 14.4045 2.91346 14.3384L3.74038 9.61248L0.240385 6.26654C0.125 6.14367 0 5.98299 0 5.81285C0 5.5293 0.298077 5.41588 0.538462 5.37807L5.36539 4.68809L7.52885 0.387524C7.61539 0.207939 7.77885 0 8 0C8.22115 0 8.38462 0.207939 8.47115 0.387524L10.6346 4.68809L15.4615 5.37807C15.6923 5.41588 16 5.5293 16 5.81285Z" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <strong class="rating-score">
+        5
+       </strong>
+      </div>
+     </span>
+    </li>
+    <li>
+     Value of delivery
+     <span>
+      <div class="orca-rating color-black tbody-6">
+       <div class="stars">
+        <span aria-hidden="true" class="atCuSzl orca-star" style="width:15px;height:15px">
+         <svg height="15" viewBox="0 0 16 15" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M16 5.81285C16 5.98299 15.875 6.14367 15.75 6.26654L12.2596 9.61248L13.0865 14.3384C13.0962 14.4045 13.0962 14.4612 13.0962 14.5274C13.0962 14.7732 12.9808 15 12.7019 15C12.5673 15 12.4327 14.9527 12.3173 14.8866L8 12.656L3.68269 14.8866C3.55769 14.9527 3.43269 15 3.29808 15C3.01923 15 2.89423 14.7732 2.89423 14.5274C2.89423 14.4612 2.90385 14.4045 2.91346 14.3384L3.74038 9.61248L0.240385 6.26654C0.125 6.14367 0 5.98299 0 5.81285C0 5.5293 0.298077 5.41588 0.538462 5.37807L5.36539 4.68809L7.52885 0.387524C7.61539 0.207939 7.77885 0 8 0C8.22115 0 8.38462 0.207939 8.47115 0.387524L10.6346 4.68809L15.4615 5.37807C15.6923 5.41588 16 5.5293 16 5.81285Z" fill-rule="evenodd">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <strong class="rating-score">
+        5
+       </strong>
+      </div>
+     </span>
+    </li>
+   </ul>
+  </div>
+ </div>
+</div>
+<div class="reliable-review-description review-description">
+ Samridh truly IMPRESSED with exceptional software development skills, delivering a bug-free product that exceeded expectations. His documentation was flawless, and working with him felt seamless due to his deep understanding and prompt responsiveness.
+</div>
+<div class="reliable-review-description review-description">
+ I had a problem requiring some complex input-format reformatting in Excel through a Python script interacting with a database. Samridh solved the problem exactly as required and delivered very quickly although the complexity was higher than he initially thought.
+</div>
+<div class="reliable-review-description review-description">
+ thanks for the good work Samridh as always
+</div>
+<div class="reliable-review-description review-description">
+ Excellent again
+</div>
+<div class="reliable-review-description review-description">
+ fast delivery
+</div>
