@@ -1,8 +1,11 @@
 from gig_scrape import GigScraping
 from giglist_scrape import ListScraping
+from dotenv import load_dotenv
 import threading
 import time
 import os
+
+load_dotenv()
 
 CATEGORIES = {
     'programming-tech': ['website-development', 'software-development', 'mobile-app-services', 'blockchain-cryptocurrency'],
@@ -19,10 +22,9 @@ CATEGORIES = {
     'music-audio': ['producers', 'mixing-mastering', 'voice-overs', 'online-music-lessons', 'sound-design'],
     'business': ['business-registration', 'virtual-assistant-services', 'intellectual-property-management', 'sales']
 }
-API_KEY = os.environ.get('API_KEY')
 
 def list_scraping(urls:list, category, subcategory, running_threads:list):
-    scraping = ListScraping(API_KEY, category, subcategory)
+    scraping = ListScraping(os.environ.get('API_KEY'), category, subcategory)
     urls.extend(scraping.get_gig_urls())
     running_threads.remove(subcategory)
     return 0
