@@ -49,6 +49,9 @@ class GigScraping:
                     if (list_elements):
                         for list_element in list_elements:
                             self.description += f'{list_element.string}\n'
+        self.description = self.description.strip()
+        self.description = self.description.replace("'", "").replace('"', '')  # Escape single quotes for SQL
+        self.description = self.description.replace(',', '')
         print('finished gig description with length:', len(self.description))
         return description
     
@@ -102,9 +105,9 @@ class GigScraping:
                     return
                 self.gig_ratings()
                 if (not self.url_id):
-                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating) values ('{self.title}', {str(len(self.description))}, {str(self.rating)})")
+                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating, gig_description) values ('{self.title}', {str(len(self.description))}, {str(self.rating)}, '{self.description}')")
                 else:
-                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating, url_id) values ('{self.title}', {str(len(self.description))}, {str(self.rating)}, {str(self.url_id)})")
+                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating, gig_description, url_id) values ('{self.title}', {str(len(self.description))}, {str(self.rating)}, '{self.description}', {str(self.url_id)})")
                 connection.commit()
                 print('Uploaded gig details')
                 cursor.execute(f'update GIG_URLS set scraped = 1 where url_id = {str(self.url_id)}')
@@ -113,7 +116,8 @@ class GigScraping:
                 print('scraping reviews')
                 reviews = self.gig_reviews()
                 for review, rating in reviews:
-                    review = review.replace("'", "")  # Escape single quotes for SQL
+                    review = review.replace("'", "").replace('"', '')  # Escape single quotes for SQL
+                    self.description = self.description.replace(',', '')
                     print(review, rating)
                     cursor.execute(f"insert into GIG_REVIEWS (rating, content, url_id) values ({str(rating)}, '{review}', {str(self.url_id)})")
                 connection.commit()
