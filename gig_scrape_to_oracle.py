@@ -28,7 +28,7 @@ if (__name__ == '__main__'):
     with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
         print('established connection to oracle')
         with connection.cursor() as cursor:
-            urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 offset 4500 rows fetch next 1000 rows only'))
+            urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 offset 5500 rows fetch next 1000 rows only'))
         l = len(urls)
         print(f'Found {l} URLs to scrape')
         for url in urls:
