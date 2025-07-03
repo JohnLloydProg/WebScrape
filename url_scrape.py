@@ -24,7 +24,7 @@ CATEGORIES = {
 }
 
 def list_scraping(urls:list, category, subcategory, running_threads:list):
-    scraping = ListScraping(os.environ.get('API_KEY'), category, subcategory)
+    scraping = ListScraping(os.environ.get('API_KEY'), category, subcategory, max_pages=10)
     urls.extend(scraping.get_gig_urls())
     running_threads.remove(subcategory)
     return 0

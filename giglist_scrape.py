@@ -19,7 +19,7 @@ class ListScraping:
                 json:dict = response.props_json()
                 for gig in response.props_json().get('listings')[0].get('gigs'):
                     urls.add(gig.get('gig_url'))
-                print(f'Done with page {str(page_no)} out of 20')
+                print(f'Done with page {str(page_no)} out of {str(self.max_pages)} for the {self.subcategory} under the {self.category} category')
         except:
             print(f'Error in scraping the urls for the {self.subcategory} under the {self.category} category')
         return list(urls)

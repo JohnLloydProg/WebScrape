@@ -8,10 +8,15 @@ requests = "*"
 bs4 = "*"
 html5lib = "*"
 fiverr-api = "*"
-selenium = "*"
 emoji = "*"
 python-dotenv = "*"
 oracledb = "*"
+pyppeteer = "*"
+packaging = "*"
+blinker = "==1.7.0"
+selenium-wire = "*"
+setuptools = "*"
+playwright = "*"
 
 [dev-packages]
 
