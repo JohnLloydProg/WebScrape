@@ -1,9 +1,9 @@
 import oracledb
 from oracledb.connection import Connection
 from dotenv import load_dotenv
-from my_browser import Browser
 from gig_scrape import GigScraping
-from concurrent.futures import ThreadPoolExecutor
+from time import sleep
+import threading
 import os
 
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
@@ -27,10 +27,9 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
     if iteration == total: 
         print()
 
-def list_scraping(url_id, gig_link:str, connection:Connection, running_threads:list):
-    browser = Browser(f'http://www.fiverr.com{gig_link}')
-    scraping = GigScraping(browser.content, url_id)
-    scraping.oracle_upload(connection)
+def list_scraping(url_id, gig_link:str, running_threads:list):
+    scraping = GigScraping(gig_link, url_id)
+    scraping.oracle_upload()
     running_threads.remove(url_id)
     return 0
 
@@ -40,19 +39,23 @@ if (__name__ == '__main__'):
     oracledb.init_oracle_client(lib_dir=r"C:\instantclient_23_8")
 
     os.environ['TNS_ADMIN'] = './wallet'
-    
+    running_threads = []
     with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
         print('established connection to oracle')
         with connection.cursor() as cursor:
-            urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 fetch next 1 rows only'))
-            while len(urls) > 0:
-                urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 fetch next 1 rows only'))
-                l = len(urls)
-                print(f'Found {l} URLs to scrape')
-                with ThreadPoolExecutor(max_workers=1) as executor:
-                    for url in urls:
-                        url_id, url = url
-                        url = f'http://www.fiverr.com{url}'
-                        print('Running thread for', url, 'with id', url_id)
-                        executor.submit(Browser, url, url_id, connection)
-                break
+            urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 fetch next 100 rows only'))
+        l = len(urls)
+        print(f'Found {l} URLs to scrape')
+        for url in urls:
+            while len(running_threads) == 10:
+                sleep(1)
+                print('wating for available thread')
+            url_id, url = url
+            url = f'https://www.fiverr.com{url}'
+            print('Running thread for', url, 'with id', url_id)
+            thread = threading.Thread(target=list_scraping, args=(url_id, url, running_threads), daemon=True)
+            thread.start()
+            running_threads.append(url_id)
+    while len(running_threads):
+        sleep(1)
+        print(f'Waiting for {len(running_threads)} threads to finish...')
