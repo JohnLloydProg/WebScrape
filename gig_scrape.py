@@ -13,7 +13,6 @@ class GigScraping:
         self.url_id = url_id
         self.soup:BeautifulSoup = response.soup
         self.gig_page = self.get_gig_page()
-        print('initialized GigScraping with URL ID:', self.url_id)
     
     def get_gig_page(self):
         return self.soup.find('div', {"class":'gig-page'})
@@ -56,13 +55,22 @@ class GigScraping:
         return description
     
     def gig_ratings(self):
-        ratings = self.gig_page.find('div', {'class': 'breakdown-wrapper'})
-        rating = ratings.find('strong', {'class': 'rating-score'})
-        if (rating):
-            self.rating = float(rating.string)
+        ratings = self.gig_page.find('header', {'class': 'reviews-header'})
+        if ratings:
+            rating = ratings.find('strong', {'class': 'rating-score'})
+            if (rating):
+                self.rating = float(rating.string)
+            else:
+                self.rating = 0.0
         else:
             self.rating = 0.0
-        print('finished gig ratings with rating:', self.rating)
+        breakdown_wrapper = self.gig_page.find('div', {'class': 'breakdown-wrapper'})
+        if breakdown_wrapper:
+            breakdowns = list(breakdown_wrapper.find('div', {'class':'ranking'}).find_all('strong', {'class': 'rating-score'}))
+            self.breakdown = [float(breakdown.string) for breakdown in breakdowns]
+        else:
+            self.breakdown = [0, 0, 0]
+        
         return ratings
     
     def gig_reviews(self):
@@ -91,6 +99,14 @@ class GigScraping:
     
     def seller_loyalty_banner(self):
         return self.gig_page.find('div', {'class': 'seller-loyalty-banner'})
+
+    def update_oracle(self):
+        os.environ['TNS_ADMIN'] = './wallet'
+        with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
+            with connection.cursor() as cursor:
+                self.gig_ratings()
+                cursor.execute(f'update GIG_DETAILS set communication = {str(self.breakdown[0])}, quality = {str(self.breakdown[1])}, value_of_delivery = {str(self.breakdown[2])}, rating = {str(self.rating)} where url_id = {str(self.url_id)}')
+            connection.commit()
 
     def oracle_upload(self):
         os.environ['TNS_ADMIN'] = './wallet'
