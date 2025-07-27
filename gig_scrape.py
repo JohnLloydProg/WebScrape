@@ -121,23 +121,24 @@ class GigScraping:
                     return
                 self.gig_ratings()
                 if (not self.url_id):
-                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating, gig_description) values ('{self.title}', {str(len(self.description))}, {str(self.rating)}, '{self.description}')")
+                    cursor.execute(f"insert into GIG_DETAILS (gig_title, gig_description) values ('{self.title}', '{self.description}')")
                 else:
-                    cursor.execute(f"insert into GIG_DETAILS (gig_title, number_of_words, rating, gig_description, url_id) values ('{self.title}', {str(len(self.description))}, {str(self.rating)}, '{self.description}', {str(self.url_id)})")
+                    cursor.execute(f"insert into GIG_DETAILS (gig_title, gig_description, url_id) values ('{self.title}', '{self.description}', {str(self.url_id)})")
                 connection.commit()
                 print('Uploaded gig details')
-                cursor.execute(f'update GIG_URLS set scraped = 1 where url_id = {str(self.url_id)}')
+                cursor.execute(f'update GIG_URLS set scraped = 1, number_of_words = {str(len(self.description))}, rating = {str(self.rating)} where url_id = {str(self.url_id)}')
+                cursor.execute(f'update GIG_URLS set communication = {str(self.breakdown[0])}, quality = {str(self.breakdown[1])}, value_of_delivery = {str(self.breakdown[2])} where url_id = {str(self.url_id)}')
                 print('Updated GIG_URLS table')
                 connection.commit()
                 print('scraping reviews')
                 reviews = self.gig_reviews()
                 for review, rating in reviews:
-                    review = review.replace("'", "").replace('"', '')  # Escape single quotes for SQL
+                    review = review.replace("'", "").replace('"', '')
                     self.description = self.description.replace(',', '')
                     print(review, rating)
                     cursor.execute(f"insert into GIG_REVIEWS (rating, content, url_id) values ({str(rating)}, '{review}', {str(self.url_id)})")
                 connection.commit()
-                cursor.execute(f'update GIG_DETAILS set reviews = {self.number_of_reviews}, repeating_customers = {self.repeat_customers} where url_id = {str(self.url_id)}')
+                cursor.execute(f'update GIG_URLS set reviews = {self.number_of_reviews}, repeating_customers = {self.repeat_customers} where url_id = {str(self.url_id)}')
                 connection.commit()
                 print(f'Uploaded {self.number_of_reviews} reviews for {self.title} with {self.repeat_customers} repeat customers')
 

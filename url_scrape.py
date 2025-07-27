@@ -11,7 +11,7 @@ CATEGORIES = {
     'programming-tech': ['website-development', 'software-development', 'mobile-app-services', 'blockchain-cryptocurrency'],
     'graphics-design': [
         'creative-logo-design', 'website-design', 'digital-illustration', 'architectural-design-services', 'product-design-services', 'image-editing', 
-        'flyer-design', 'product-packaging-design', 'social-media-design', 't-shirts', ''
+        'flyer-design', 'product-packaging-design', 'social-media-design', 't-shirts',
     ],
     'online-marketing': ['seo-services', 'social-marketing', 'online-video-marketing', 'marketing-strategy', 'music-promotion'],
     'writing-translation': ['articles-blogposts', 'proofreading-editing', 'book-and-ebook-writing', 'quality-translation-services', 'tone-of-voice', 'resume-writing'],

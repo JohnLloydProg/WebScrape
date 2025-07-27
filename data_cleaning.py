@@ -15,7 +15,7 @@ if (__name__ == '__main__'):
             gigs = cursor.fetchall()
             df_gigs = pd.DataFrame(gigs, columns=[col[0] for col in cursor.description])
             
-            cursor.execute('SELECT * FROM GIG_URLS u inner join GIG_REVIEWS r on u.url_id = r.url_id')
+            cursor.execute('SELECT u.URL_ID, u.GIG_LINK, r.REVIEW_ID, r.RATING, r.CONTENT FROM GIG_URLS u inner join GIG_REVIEWS r on u.url_id = r.url_id')
             reviews = cursor.fetchall()
             df_reviews = pd.DataFrame(reviews, columns=[col[0] for col in cursor.description])
     
@@ -30,10 +30,14 @@ if (__name__ == '__main__'):
     df_gigs['NUMBER_OF_WORDS'] = df_gigs['NUMBER_OF_WORDS'].fillna(0)
     df_gigs['RATING'] = df_gigs['RATING'].fillna(df_gigs['RATING'].mean())
     df_gigs = df_gigs[df_gigs['GIG_DESCRIPTION'].notnull()]
+    df_gigs = df_gigs[df_gigs['COMMUNICATION'].notnull()]
     df_gigs['GIG_DESCRIPTION'].drop_duplicates(inplace=True)
 
     #Normalizing quantitative columns
     df_gigs['REPEATING_CUSTOMERS_STANDARDIZED'] = (df_gigs['REPEATING_CUSTOMERS'] - df_gigs['REPEATING_CUSTOMERS'].mean()) / df_gigs['REPEATING_CUSTOMERS'].std()
+    df_gigs['COMMUNICATION_STANDARDIZED'] = (df_gigs['COMMUNICATION'] - df_gigs['COMMUNICATION'].mean()) / df_gigs['COMMUNICATION'].std()
+    df_gigs['QUALITY_STANDARDIZED'] = (df_gigs['QUALITY'] - df_gigs['QUALITY'].mean()) / df_gigs['QUALITY'].std()
+    df_gigs['VALUE_OF_DELIVERY_STANDARDIZED'] = (df_gigs['VALUE_OF_DELIVERY'] - df_gigs['VALUE_OF_DELIVERY'].mean()) / df_gigs['VALUE_OF_DELIVERY'].std()
     df_gigs['REVIEWS_STANDARDIZED'] = (df_gigs['REVIEWS'] - df_gigs['REVIEWS'].mean()) / df_gigs['REVIEWS'].std()
     df_gigs['RATING_STANDARDIZED'] = (df_gigs['RATING'] - df_gigs['RATING'].mean()) / df_gigs['RATING'].std()
     df_gigs['NUMBER_OF_WORDS_STANDARDIZED'] = (df_gigs['NUMBER_OF_WORDS'] - df_gigs['NUMBER_OF_WORDS'].mean()) / df_gigs['NUMBER_OF_WORDS'].std()
@@ -44,6 +48,8 @@ if (__name__ == '__main__'):
 
     print('================================================================')
     print(df_gigs.describe())
+    for col in df_gigs.columns:
+        print(f'[{col}] empty rows: {df_gigs[col].isnull().sum()} {df_gigs[col].dtypes}')
     df_gigs.to_csv('gigs_cleaned.csv')
     df_gigs.to_excel('gigs_cleaned.xlsx')
 

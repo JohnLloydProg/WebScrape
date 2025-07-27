@@ -32,7 +32,7 @@ def list_scraping(url_id, gig_link:str, running_threads:list):
     global progress, l, message
     try:
         scraping = GigScraping(gig_link, url_id)
-        scraping.update_oracle()
+        scraping.oracle_upload()
         running_threads.remove(url_id)
         message = f'done scraping {str(scraping.url_id)}'
         with open('logs.txt', 'a') as f:
@@ -63,7 +63,7 @@ if (__name__ == '__main__'):
     with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
         print('established connection to oracle')
         with connection.cursor() as cursor:
-            urls = list(cursor.execute('select u.url_id, u.gig_link from GIG_URLS u inner join GIG_DETAILS d on d.url_id = u.url_id where communication is null offset 3000 rows fetch next 3000 rows only'))
+            urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0 offset 5500 rows fetch next 1000 rows only'))
         l = len(urls)
         print(f'Found {l} URLs to scrape')
         progress = 0

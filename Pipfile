@@ -19,6 +19,7 @@ setuptools = "*"
 playwright = "*"
 pandas = "*"
 openpyxl = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
