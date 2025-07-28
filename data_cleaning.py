@@ -62,7 +62,6 @@ if (__name__ == '__main__'):
     df_reviews['RATING'] = df_reviews['RATING'].fillna(df_reviews['RATING'].mean())
     df_reviews = df_reviews[df_reviews['CONTENT'].notnull()]
     df_reviews['CONTENT'].drop_duplicates(inplace=True)
-    df_reviews['CONTENT'].dropna(inplace=True)
 
 
     print('================================================================')
