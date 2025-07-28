@@ -20,7 +20,7 @@ if (__name__ == '__main__'):
             df_reviews = pd.DataFrame(reviews, columns=[col[0] for col in cursor.description])
     
     print('================================================================')
-    print(f'Found {len(df_gigs)} rows in GIG_DETAILS table ')
+    print(f'Found {len(df_gigs)} rows in GIG_DETAILS table before cleaning')
     for col in df_gigs.columns:
         print(f'[{col}] empty rows: {df_gigs[col].isnull().sum()} {df_gigs[col].dtypes}')
     
@@ -47,14 +47,14 @@ if (__name__ == '__main__'):
     df_gigs['NUMBER_OF_WORDS_BINNED'] = pd.cut(df_gigs['NUMBER_OF_WORDS'], bins=[0, 100, 500, 1000, 5000], labels=['Short', 'Medium', 'Long', 'Very Long'])
 
     print('================================================================')
-    print(df_gigs.describe())
+    print(f'Found {len(df_gigs)} rows in GIG_DETAILS table after cleaning')
     for col in df_gigs.columns:
         print(f'[{col}] empty rows: {df_gigs[col].isnull().sum()} {df_gigs[col].dtypes}')
     df_gigs.to_csv('gigs_cleaned.csv')
     df_gigs.to_excel('gigs_cleaned.xlsx')
 
     print('\n\n================================================================')
-    print(f'Found {len(df_reviews)} rows in GIG_REVIEWS table ')
+    print(f'Found {len(df_reviews)} rows in GIG_REVIEWS table before cleaning')
     for col in df_reviews.columns:
         print(f'[{col}] empty rows: {df_reviews[col].isnull().sum()} {df_reviews[col].dtypes}')
     
@@ -65,7 +65,7 @@ if (__name__ == '__main__'):
 
 
     print('================================================================')
-    print(df_reviews.describe())
+    print(f'Found {len(df_reviews)} rows in GIG_REVIEWS table after cleaning')
     df_reviews.to_csv('reviews_cleaned.csv')
     df_reviews.to_excel('reviews_cleaned.xlsx')
 
