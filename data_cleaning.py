@@ -5,11 +5,10 @@ import os
 
 if (__name__ == '__main__'):
     load_dotenv()
-    oracledb.init_oracle_client(lib_dir=r"C:\instantclient_23_8")
 
-    os.environ['TNS_ADMIN'] = './wallet'
+    oracledb.enable_thin_mode()
 
-    with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
+    with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN'], config_dir='./wallet', wallet_location='./wallet', wallet_password=os.environ['PASSWORD']) as connection:
         with connection.cursor() as cursor:
             cursor.execute('SELECT * FROM GIG_URLS u INNER JOIN GIG_DETAILS d ON u.url_id = d.url_id')
             gigs = cursor.fetchall()

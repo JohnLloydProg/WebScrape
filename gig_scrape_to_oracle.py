@@ -56,11 +56,10 @@ def display_message_progressBar():
 if (__name__ == '__main__'):
     load_dotenv()
 
-    oracledb.init_oracle_client(lib_dir=r"C:\instantclient_23_8")
+    oracledb.enable_thin_mode()
 
-    os.environ['TNS_ADMIN'] = './wallet'
     running_threads = []
-    with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
+    with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN'], config_dir='./wallet', wallet_location='./wallet', wallet_password=os.environ['PASSWORD']) as connection:
         print('established connection to oracle')
         with connection.cursor() as cursor:
             urls = list(cursor.execute('select url_id, gig_link from GIG_URLS where scraped = 0'))

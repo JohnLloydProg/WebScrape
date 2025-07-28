@@ -101,16 +101,16 @@ class GigScraping:
         return self.gig_page.find('div', {'class': 'seller-loyalty-banner'})
 
     def update_oracle(self):
-        os.environ['TNS_ADMIN'] = './wallet'
-        with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
+        
+        with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN'], config_dir='./wallet', wallet_location='./wallet', wallet_password=os.environ['PASSWORD']) as connection:
             with connection.cursor() as cursor:
                 self.gig_ratings()
                 cursor.execute(f'update GIG_DETAILS set communication = {str(self.breakdown[0])}, quality = {str(self.breakdown[1])}, value_of_delivery = {str(self.breakdown[2])}, rating = {str(self.rating)} where url_id = {str(self.url_id)}')
             connection.commit()
 
     def oracle_upload(self):
-        os.environ['TNS_ADMIN'] = './wallet'
-        with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN']) as connection:
+        
+        with oracledb.connect(user='admin', password=os.environ['PASSWORD'], dsn=os.environ['DSN'], config_dir='./wallet', wallet_location='./wallet', wallet_password=os.environ['PASSWORD']) as connection:
             with connection.cursor() as cursor:
                 self.gig_overview()
                 description = self.gig_description()
