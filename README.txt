@@ -8,8 +8,9 @@ Scraping the data
 
 Data Mining
 1. Upload the .ipynb files to Google Colab
-2. Load the "gigs_cleaned.csv" to the Description Google Colab instance
-3. Load the "reviews_cleaned.csv" to the Reviews Google Colab instance
-4. Run the first code snippet first for both colab notebooks
-5. Restart their sessions
-6. You can now run all the code snippets.
+2. Load the "gigs_cleaned.csv" file to the Description Google Colab instance
+3. Load the "reviews_cleaned.csv" file to the Reviews Google Colab instance
+4. Load the "reviews_cleaned.csv" file to the Sentiment Analysis Colab instance
+5. Run the first code snippet first for both colab notebooks
+6. Restart their sessions
+7. You can now run all the code snippets.
