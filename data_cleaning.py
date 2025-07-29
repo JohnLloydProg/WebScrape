@@ -13,10 +13,12 @@ if (__name__ == '__main__'):
             cursor.execute('SELECT * FROM GIG_URLS u INNER JOIN GIG_DETAILS d ON u.url_id = d.url_id')
             gigs = cursor.fetchall()
             df_gigs = pd.DataFrame(gigs, columns=[col[0] for col in cursor.description])
+            df_gigs.to_csv('./gigs_raw.csv')
             
             cursor.execute('SELECT u.URL_ID, u.GIG_LINK, r.REVIEW_ID, r.RATING, r.CONTENT FROM GIG_URLS u inner join GIG_REVIEWS r on u.url_id = r.url_id')
             reviews = cursor.fetchall()
             df_reviews = pd.DataFrame(reviews, columns=[col[0] for col in cursor.description])
+            df_reviews.to_csv('./reviews_raw.csv')
     
     print('================================================================')
     print(f'Found {len(df_gigs)} rows in GIG_DETAILS table before cleaning')
