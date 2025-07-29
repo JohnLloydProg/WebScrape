@@ -9,6 +9,7 @@ fiverr-api = "*"
 python-dotenv = "*"
 emoji = "*"
 pandas = "*"
+openpyxl = "*"
 
 [dev-packages]
 
